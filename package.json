@@ -2,11 +2,19 @@
   "name": "final",
   "version": "1.0.0",
   "description": "",
+<<<<<<< HEAD
   "main": "server.js",
   "type": "module",
   "scripts": {
     "start": "node ./src/server.js"
   
+=======
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start:express": "nodemon server-express.js",
+    "start:http": "nodemon server-http.js"
+>>>>>>> a9e33962303eefc0465ff2b02fffe9e38d6a9578
   },
   "keywords": [],
   "author": "",
