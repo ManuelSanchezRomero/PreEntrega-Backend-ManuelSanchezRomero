@@ -2,11 +2,11 @@
   "name": "final",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "type": "module",
   "scripts": {
-    "start:express": "nodemon server-express.js",
-    "start:http": "nodemon server-http.js"
+    "start": "node ./src/server.js"
+  
   },
   "keywords": [],
   "author": "",

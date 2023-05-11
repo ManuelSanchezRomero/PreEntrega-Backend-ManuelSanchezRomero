@@ -1,5 +1,7 @@
-import { getAllProducts, getProductById, createProduct, updateProduct, deleteProductById } from '../path/to/productManager.js';
+import { getAllProducts, getProductById, createProduct, updateProduct, deleteProductById } from '../managers/productManager.js';
+import { Router} from "express"
 
+const router = Router();
 
 router.get('/', async (req, res) => {
     const { limit } = req.query;
@@ -80,4 +82,4 @@ router.delete('/:pid', async (req, res) => {
     }
 });
 
-export default ProductRouter;
+export default router;
